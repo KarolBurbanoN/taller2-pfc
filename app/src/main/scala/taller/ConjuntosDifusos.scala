@@ -58,16 +58,16 @@ class ConjuntosDifusos {
 
   def inclusion(cd1: ConjDifuso, cd2: ConjDifuso): Boolean = {
         @scala.annotation.tailrec
-        def auxInclusion(s: Int): Boolean = {
+        def loop(s: Int): Boolean = {
           if (s > 1000) true // Finaliza cuando se recorren todos los elementos hasta 1000
           else if (pertenece(s, cd1) > pertenece(s, cd2)) false // Si no cumple la inclusion retorna false
-          else auxInclusion(s + 1) 
+          else loop(s + 1) 
         }
-        auxInclusion(0) 
+        loop(0) 
       }
-/*
-    // Función para verificar si dos conjuntos difusos son iguales
-    def igualdad(cd1: ConjDifuso, cd2: ConjDifuso): Boolean = {
-      inclusion(cd1, cd2) && inclusion(cd2, cd1)
-    }*/
-  }
+
+      // Función para verificar si dos conjuntos difusos son iguales
+      def igualdad(cd1: ConjDifuso, cd2: ConjDifuso): Boolean = {
+        inclusion(cd1, cd2) && inclusion(cd2, cd1)
+      }
+    }

@@ -1,4 +1,4 @@
-/*package taller
+package taller
 
 import org.scalatest.funsuite.AnyFunSuite
 import org.junit.runner.RunWith
@@ -8,37 +8,39 @@ import org.scalatestplus.junit.JUnitRunner
 class IgualdadTest extends AnyFunSuite {
 
   val objConjuntosDifusos = new ConjuntosDifusos()
-
-  // Función para crear conjuntos constantes
-  def constante(valor: Double): ConjDifuso = (elem: Int) => valor
-
-  test("igualdad - dos conjuntos idénticos") {
-    val cd1: ConjDifuso = s => if (s % 2 == 0) 0.5 else 0.3
-    val cd2: ConjDifuso = s => if (s % 2 == 0) 0.5 else 0.3
-    assert(objConjuntosDifusos.igualdad(cd1, cd2) === true)
+  
+  // Caso 1: Conjuntos difusos idénticos que deberían ser iguales
+  test("igualdad - conjuntos idénticos") {
+    val cd1: Int => Double = x => Math.sin(x * 0.01)
+    val cd2: Int => Double = x => Math.sin(x * 0.01)
+    assert(objConjuntosDifusos.igualdad(cd1, cd2))
   }
-
-  test("igualdad - conjuntos diferentes en un elemento") {
-    val cd1: ConjDifuso = s => if (s == 500) 0.8 else 0.5
-    val cd2: ConjDifuso = s => 0.5
-    assert(objConjuntosDifusos.igualdad(cd1, cd2) === false)
+  
+  // Caso 2: Conjuntos difusos con valores similares pero ligeramente diferentes
+  test("igualdad - conjuntos con valores similares") {
+    val cd1: Int => Double = x => Math.sin(x * 0.01)
+    val cd2: Int => Double = x => Math.sin(x * 0.01) + 0.0001 // Diferencia mínima
+    assert(!objConjuntosDifusos.igualdad(cd1, cd2))
   }
-
-  test("igualdad - conjunto constante igual a otro constante") {
-    val cd1 = constante(0.5)
-    val cd2 = constante(0.5)
-    assert(objConjuntosDifusos.igualdad(cd1, cd2) === true)
+  
+  // Caso 3: Conjuntos difusos con una simetría invertida (inversión de signo en los valores)
+  test("igualdad - conjuntos invertidos") {
+    val cd1: Int => Double = x => Math.cos(x * 0.01)
+    val cd2: Int => Double = x => -Math.cos(x * 0.01)
+    assert(!objConjuntosDifusos.igualdad(cd1, cd2))
   }
-
-  test("igualdad - conjunto constante distinto de otro constante") {
-    val cd1 = constante(0.5)
-    val cd2 = constante(0.3)
-    assert(objConjuntosDifusos.igualdad(cd1, cd2) === false)
+  
+  // Caso 4: Conjuntos difusos donde uno está contenido en otro pero no son iguales
+  test("igualdad - subconjunto") {
+    val cd1: Int => Double = x => Math.abs(Math.sin(x * 0.01))
+    val cd2: Int => Double = x => if (x % 2 == 0) Math.abs(Math.sin(x * 0.01)) else 0.0
+    assert(!objConjuntosDifusos.igualdad(cd1, cd2))
   }
-
-  test("igualdad - inclusión recíproca implica igualdad") {
-    val cd1: ConjDifuso = s => if (s < 500) 0.2 else 0.6
-    val cd2: ConjDifuso = s => if (s < 500) 0.2 else 0.6
-    assert(objConjuntosDifusos.igualdad(cd1, cd2) === true)
+  
+  // Caso 5: Conjuntos difusos no triviales que resultan en igualdad solo en un rango parcial
+  test("igualdad - igualdad parcial en rango") {
+    val cd1: Int => Double = x => if (x < 500) 0.5 else Math.sin(x * 0.01)
+    val cd2: Int => Double = x => if (x < 500) 0.5 else Math.sin(x * 0.01)
+    assert(objConjuntosDifusos.igualdad(cd1, cd2))
   }
-}*/
+}
