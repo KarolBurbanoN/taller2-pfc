@@ -46,7 +46,16 @@ class ConjuntosDifusos {
   }
 
 
-
+  def interseccion(cd1: ConjDifuso, cd2: ConjDifuso): ConjDifuso = {
+    // Creamos una función que calcula la intersección de dos conjuntos difusos
+    def calcularInterseccion(n: Int): Double = {
+      // La intersección es el mínimo de las pertenencias
+      math.min(cd1(n), cd2(n))
+    }
+    
+    // Retornamos la función que representa la intersección
+    calcularInterseccion
+  }
 
   def inclusion(cd1: ConjDifuso, cd2: ConjDifuso): Boolean = {
     // Función auxiliar interna para aplicar recursión de cola
