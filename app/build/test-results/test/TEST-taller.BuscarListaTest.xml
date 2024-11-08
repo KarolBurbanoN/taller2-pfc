@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="taller.BuscarListaTest" tests="5" skipped="0" failures="0" errors="0" timestamp="2024-11-08T14:01:57" hostname="LAPTOP-SLSDBM48" time="0.008">
+<testsuite name="taller.BuscarListaTest" tests="5" skipped="0" failures="0" errors="0" timestamp="2024-11-08T22:27:45" hostname="LAPTOP-SLSDBM48" time="0.005">
   <properties/>
-  <testcase name="Encontrar 3 en List(1, 2, 3, 4, 5)" classname="taller.BuscarListaTest" time="0.002"/>
-  <testcase name="No encontrar 6 en List(1, 2, 3, 4, 5)" classname="taller.BuscarListaTest" time="0.001"/>
-  <testcase name="No encontrar 3 en List()" classname="taller.BuscarListaTest" time="0.001"/>
+  <testcase name="Encontrar 3 en List(1, 2, 3, 4, 5)" classname="taller.BuscarListaTest" time="0.001"/>
+  <testcase name="No encontrar 6 en List(1, 2, 3, 4, 5)" classname="taller.BuscarListaTest" time="0.0"/>
+  <testcase name="No encontrar 3 en List()" classname="taller.BuscarListaTest" time="0.0"/>
   <testcase name="Encontrar 3 en List(3)" classname="taller.BuscarListaTest" time="0.0"/>
-  <testcase name="Encontrar 100 en List(100, 200, 300, 400, 500)" classname="taller.BuscarListaTest" time="0.0"/>
+  <testcase name="Encontrar 100 en List(100, 200, 300, 400, 500)" classname="taller.BuscarListaTest" time="0.001"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

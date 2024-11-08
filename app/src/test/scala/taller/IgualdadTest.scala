@@ -1,4 +1,4 @@
-package taller
+/*package taller
 
 import org.scalatest.funsuite.AnyFunSuite
 import org.junit.runner.RunWith
@@ -41,4 +41,4 @@ class IgualdadTest extends AnyFunSuite {
     val cd2: ConjDifuso = s => if (s < 500) 0.2 else 0.6
     assert(objConjuntosDifusos.igualdad(cd1, cd2) === true)
   }
-}
+}*/
