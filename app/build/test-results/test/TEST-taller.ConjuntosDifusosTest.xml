@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="taller.ConjuntosDifusosTest" tests="5" skipped="0" failures="0" errors="0" timestamp="2024-11-08T14:01:57" hostname="LAPTOP-SLSDBM48" time="0.009">
+  <properties/>
+  <testcase name="Pertenencia de 10 en conjunto grande con d = 5 y e = 2" classname="taller.ConjuntosDifusosTest" time="0.005"/>
+  <testcase name="Pertenencia de 0 en conjunto grande con d = 3 y e = 2 es 0" classname="taller.ConjuntosDifusosTest" time="0.001"/>
+  <testcase name="Pertenencia de 5 en conjunto grande con d = 10 y e = 3" classname="taller.ConjuntosDifusosTest" time="0.0"/>
+  <testcase name="Pertenencia de -1 en conjunto grande con d = 2 y e = 1 es 0" classname="taller.ConjuntosDifusosTest" time="0.0"/>
+  <testcase name="Pertenencia de 15 en conjunto grande con d = 7 y e = 2" classname="taller.ConjuntosDifusosTest" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

@@ -21,7 +21,7 @@ class ConjuntosDifusos {
     // Retornamos la función que representa el conjunto difuso
     evaluarGrande
   }
-
+  
   def complemento(c: ConjDifuso): ConjDifuso = {
     // Creamos una función que calcula el complemento
     def calcularComplemento(x: Int): Double = {
@@ -32,6 +32,21 @@ class ConjuntosDifusos {
     // Retornamos la función que representa el complemento
     calcularComplemento
   }
+
+  
+  def union(cd1: ConjDifuso, cd2: ConjDifuso): ConjDifuso = {
+    // Creamos una función que calcula la unión de dos conjuntos difusos
+    def calcularUnion(n: Int): Double = {
+      // La unión es el máximo de las pertenencias
+      math.max(cd1(n), cd2(n))
+    }
+    
+    // Retornamos la función que representa la unión
+    calcularUnion
+  }
+
+
+
 
   def inclusion(cd1: ConjDifuso, cd2: ConjDifuso): Boolean = {
     // Función auxiliar interna para aplicar recursión de cola

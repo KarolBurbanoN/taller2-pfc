@@ -1,4 +1,4 @@
-package taller
+/*package taller
 
 import org.scalatest.funsuite.AnyFunSuite
 import org.junit.runner.RunWith
@@ -8,4 +8,4 @@ import org.scalatestplus.junit.JUnitRunner
 class ConjuntosDifusosTest extends AnyFunSuite {
 
 }
-
+*/
