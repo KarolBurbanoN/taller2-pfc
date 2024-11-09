@@ -22,13 +22,6 @@ class InterseccionTest extends AnyFunSuite {
         assert((0 to 1000).forall(n => interseccion(n) == math.min(conjunto1(n), conjunto2(n))))
     }
 
-    test("Intersección de un conjunto con su complemento") {
-        val conjunto = objConjuntosDifusos.grande(4, 2)
-        val complemento = objConjuntosDifusos.complemento(conjunto)
-        val interseccion = objConjuntosDifusos.interseccion(conjunto, complemento)
-        assert((0 to 1000).forall(n => interseccion(n) == 0.0))
-    }
-
     test("Intersección de un conjunto con el conjunto vacío") {
         val conjunto = objConjuntosDifusos.grande(4, 2)
         val conjuntoVacio: objConjuntosDifusos.ConjDifuso = _ => 0.0

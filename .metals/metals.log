@@ -3443,3 +3443,62 @@ java.util.concurrent.TimeoutException
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
 	at java.lang.Thread.run(Thread.java:1570)
 
+2024.11.08 18:57:18 INFO  Started: Metals version 1.4.0 in folders 'C:\Users\Karol\Documents\Programacion F\taller2-pfc' for client Visual Studio Code 1.95.2.
+2024.11.08 18:57:24 WARN  Flyway upgrade recommended: H2 2.3.232 is newer than this version of Flyway and support has not been tested. The latest supported version of H2 is 2.2.224.
+2024.11.08 18:57:24 INFO  no build target found for C:\Users\Karol\Documents\Programacion F\taller2-pfc\app\src\main\scala\taller\ConjuntosDifusos.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.08 18:57:26 INFO  no build target found for C:\Users\Karol\Documents\Programacion F\taller2-pfc\app\src\main\scala\taller\ConjuntosDifusos.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.08 18:57:27 INFO  Attempting to connect to the build server...
+2024.11.08 18:57:27 INFO  Found a Bloop server running
+2024.11.08 18:57:28 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\Karol\Documents\Programacion F\taller2-pfc\.metals\bsp.trace.json or C:\Users\Karol\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2024.11.08 18:57:30 INFO  time: Connected to build server in 2.85s
+2024.11.08 18:57:30 INFO  Connected to Build server: Bloop v2.0.3
+2024.11.08 18:57:30 INFO  time: Imported build in 0.13s
+2024.11.08 18:57:30 INFO  running doctor check
+2024.11.08 18:57:30 INFO  java targets: app, app-test
+2024.11.08 18:57:30 WARN  2.13.11 is no longer supported in the current Metals versions, using the last known supported version 1.3.5
+2024.11.08 18:57:34 WARN  Flyway upgrade recommended: H2 2.3.232 is newer than this version of Flyway and support has not been tested. The latest supported version of H2 is 2.2.224.
+2024.11.08 18:57:35 INFO  time: indexed workspace in 5.16s
+2024.11.08 18:57:35 INFO  compiling app (4 scala sources)
+2024.11.08 18:57:38 INFO  time: compiled app in 2.8s
+2024.11.08 18:57:38 INFO  compiling app-test (6 scala sources)
+2024.11.08 18:57:40 INFO  time: compiled app-test in 1.96s
+nov. 08, 2024 6:58:00 P. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 19
+nov. 08, 2024 6:58:11 P. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 32
+2024.11.08 18:58:42 INFO  Shutting down server
+2024.11.08 18:58:42 INFO  shutting down Metals
+2024.11.08 18:58:42 INFO  Shut down connection with build server.
+2024.11.08 18:58:42 INFO  Exiting server
+2024.11.08 19:01:02 INFO  Started: Metals version 1.4.0 in folders 'C:\Users\Karol\Documents\Programacion F\taller2-pfc' for client Visual Studio Code 1.95.2.
+2024.11.08 19:01:04 WARN  Flyway upgrade recommended: H2 2.3.232 is newer than this version of Flyway and support has not been tested. The latest supported version of H2 is 2.2.224.
+2024.11.08 19:01:04 INFO  no build target found for C:\Users\Karol\Documents\Programacion F\taller2-pfc\app\src\test\scala\taller\InterseccionTest.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.08 19:01:08 INFO  Attempting to connect to the build server...
+2024.11.08 19:01:08 INFO  Found a Bloop server running
+2024.11.08 19:01:10 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\Karol\Documents\Programacion F\taller2-pfc\.metals\bsp.trace.json or C:\Users\Karol\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2024.11.08 19:01:10 INFO  time: Connected to build server in 2.26s
+2024.11.08 19:01:10 INFO  Connected to Build server: Bloop v2.0.3
+2024.11.08 19:01:10 INFO  time: Imported build in 0.15s
+2024.11.08 19:01:10 INFO  running doctor check
+2024.11.08 19:01:10 INFO  java targets: app, app-test
+2024.11.08 19:01:10 WARN  2.13.11 is no longer supported in the current Metals versions, using the last known supported version 1.3.5
+nov. 08, 2024 7:01:13 P. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3
+nov. 08, 2024 7:01:14 P. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 7
+nov. 08, 2024 7:01:16 P. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 10
+nov. 08, 2024 7:01:16 P. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 11
+nov. 08, 2024 7:01:16 P. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 12
+nov. 08, 2024 7:01:16 P. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 13
+nov. 08, 2024 7:01:16 P. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 20
+nov. 08, 2024 7:01:17 P. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 22
+2024.11.08 19:01:20 WARN  Flyway upgrade recommended: H2 2.3.232 is newer than this version of Flyway and support has not been tested. The latest supported version of H2 is 2.2.224.
+nov. 08, 2024 7:01:21 P. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 25
+2024.11.08 19:01:23 INFO  time: indexed workspace in 12s

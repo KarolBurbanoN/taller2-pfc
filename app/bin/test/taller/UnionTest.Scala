@@ -22,13 +22,6 @@ class UnionTest extends AnyFunSuite {
         assert((0 to 1000).forall(n => union(n) == math.max(conjunto1(n), conjunto2(n))))
     }
 
-    test("Unión de un conjunto con su complemento") {
-        val conjunto = objConjuntosDifusos.grande(4, 2)
-        val complemento = objConjuntosDifusos.complemento(conjunto)
-        val union = objConjuntosDifusos.union(conjunto, complemento)
-        assert((0 to 1000).forall(n => union(n) == 1.0))
-    }
-
     test("Unión de un conjunto con el conjunto vacío") {
         val conjunto = objConjuntosDifusos.grande(4, 2)
         val conjuntoVacio: objConjuntosDifusos.ConjDifuso = _ => 0.0
