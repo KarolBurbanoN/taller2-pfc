@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="taller.ConjuntosDifusosTest" tests="5" skipped="0" failures="0" errors="0" timestamp="2024-11-08T22:27:45" hostname="LAPTOP-SLSDBM48" time="0.006">
+<testsuite name="taller.ConjuntosDifusosTest" tests="5" skipped="0" failures="0" errors="0" timestamp="2024-11-09T00:44:56" hostname="LAPTOP-SLSDBM48" time="0.008">
   <properties/>
   <testcase name="Pertenencia de 10 en conjunto grande con d = 5 y e = 2" classname="taller.ConjuntosDifusosTest" time="0.004"/>
   <testcase name="Pertenencia de 0 en conjunto grande con d = 3 y e = 2 es 0" classname="taller.ConjuntosDifusosTest" time="0.0"/>

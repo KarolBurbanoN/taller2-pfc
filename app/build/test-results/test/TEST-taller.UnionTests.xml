@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="taller.UnionTests" tests="7" skipped="0" failures="0" errors="0" timestamp="2024-11-09T00:44:56" hostname="LAPTOP-SLSDBM48" time="0.013">
+  <properties/>
+  <testcase name="Unión de un conjunto consigo mismo" classname="taller.UnionTests" time="0.002"/>
+  <testcase name="Unión de dos conjuntos distintos, grado máximo en ambos" classname="taller.UnionTests" time="0.001"/>
+  <testcase name="Unión de un conjunto con el conjunto vacío" classname="taller.UnionTests" time="0.001"/>
+  <testcase name="Unión de un conjunto con un conjunto universal" classname="taller.UnionTests" time="0.002"/>
+  <testcase name="Unión de dos conjuntos idénticos, mismos parámetros" classname="taller.UnionTests" time="0.001"/>
+  <testcase name="Unión de dos conjuntos con ligera superposición" classname="taller.UnionTests" time="0.001"/>
+  <testcase name="Unión de dos conjuntos con superposición total" classname="taller.UnionTests" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

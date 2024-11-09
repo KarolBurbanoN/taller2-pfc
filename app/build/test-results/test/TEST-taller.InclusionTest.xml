@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="taller.InclusionTest" tests="5" skipped="0" failures="0" errors="0" timestamp="2024-11-08T22:27:45" hostname="LAPTOP-SLSDBM48" time="0.004">
+<testsuite name="taller.InclusionTest" tests="5" skipped="0" failures="0" errors="0" timestamp="2024-11-09T00:44:56" hostname="LAPTOP-SLSDBM48" time="0.003">
   <properties/>
   <testcase name="Conjunto difuso incluido en si mismo" classname="taller.InclusionTest" time="0.001"/>
   <testcase name="Conjunto con d menor incluido en conjunto con d mayor" classname="taller.InclusionTest" time="0.0"/>
-  <testcase name="Conjunto con d mayor no incluido en conjunto con d menor" classname="taller.InclusionTest" time="0.001"/>
-  <testcase name="Conjunto con e mayor incluido en conjunto con e menor" classname="taller.InclusionTest" time="0.0"/>
-  <testcase name="Conjunto con e menor no incluido en conjunto con e mayor" classname="taller.InclusionTest" time="0.001"/>
+  <testcase name="Conjunto con d mayor no incluido en conjunto con d menor" classname="taller.InclusionTest" time="0.0"/>
+  <testcase name="Conjunto con e mayor incluido en conjunto con e menor" classname="taller.InclusionTest" time="0.001"/>
+  <testcase name="Conjunto con e menor no incluido en conjunto con e mayor" classname="taller.InclusionTest" time="0.0"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

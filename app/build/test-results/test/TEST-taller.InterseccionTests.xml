@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="taller.InterseccionTests" tests="7" skipped="0" failures="0" errors="0" timestamp="2024-11-09T00:44:56" hostname="LAPTOP-SLSDBM48" time="0.015">
+  <properties/>
+  <testcase name="Intersección de un conjunto consigo mismo" classname="taller.InterseccionTests" time="0.005"/>
+  <testcase name="Intersección de dos conjuntos distintos, grado mínimo en ambos" classname="taller.InterseccionTests" time="0.002"/>
+  <testcase name="Intersección de un conjunto con el conjunto vacío" classname="taller.InterseccionTests" time="0.001"/>
+  <testcase name="Intersección de un conjunto con un conjunto universal" classname="taller.InterseccionTests" time="0.001"/>
+  <testcase name="Intersección de dos conjuntos idénticos, mismos parámetros" classname="taller.InterseccionTests" time="0.001"/>
+  <testcase name="Intersección de dos conjuntos con ligera superposición" classname="taller.InterseccionTests" time="0.001"/>
+  <testcase name="Intersección de dos conjuntos con superposición total" classname="taller.InterseccionTests" time="0.002"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
